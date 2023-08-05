@@ -1,11 +1,11 @@
-l=int(input())
-a=[l]
+n=int(input())
+a=[n]
 a=list(map(int,input().split()))
-f=0
-for i in range(0,l):
+c=0
+for i in range(0,n):
     if a[i]%2!=0:
-        f=f+1
-if f<=2:
+        c+=1
+if c<=2:
     print('YES')
 else:
     print('NO')
