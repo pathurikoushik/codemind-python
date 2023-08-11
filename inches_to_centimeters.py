@@ -1,3 +1,3 @@
-inches=int(input())
-centi=2.54*inches
-print(f"{centi:.2f}")
+a=int(input())
+inches=a*2.54
+print(f'{inches:.2f}')
