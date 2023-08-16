@@ -1,5 +1,5 @@
 a=int(input())
 b=int(input())
 c=int(input())
-d=a*b*c
-print(f'{d:.0f} KB')
+cap=a*b*c
+print(f'{cap:.0f} KB')
