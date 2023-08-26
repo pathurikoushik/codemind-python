@@ -1,3 +1,3 @@
 a=int(input())
-a=max(str(a))
-print(int(a))
+b=max(str(a))
+print(int(b))
