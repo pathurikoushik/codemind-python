@@ -1,9 +1,13 @@
-a=input()
-b=int(a)**2
-c=a[::-1]
-d=int(c)**2
-e=str(d)[::-1]
-if str(b)==e:
-    print(True)
+a=int(input())
+b=a*a
+a=str(a)
+a=a[::-1]
+a=int(a)
+c=a*a
+c=str(c)
+c=c[::-1]
+c=int(c)
+if(b==c):
+    print('True')
 else:
-    print(False)
+    print('False')
