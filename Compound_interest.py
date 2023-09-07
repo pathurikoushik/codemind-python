@@ -1,3 +1,3 @@
-r,y,c=map(int,input().split())
-r=r*((1+y/100.00)**c)
-print('%.2f'%r)
+p,r,t=map(int,input().split())
+d=p*((1+r/100.00)**t)
+print(f'{d:.2f}')
