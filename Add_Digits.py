@@ -1,3 +1,4 @@
 a=int(input())
-c=(a-1)%9+1
-print(c)
+d=(a-1)%9+1
+if d>0:
+    print(d)
