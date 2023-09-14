@@ -1,0 +1,11 @@
+a=int(input())
+f=0
+s=1
+c=1
+print(f,s,end=' ')
+while c<=a-2:
+    t=f+s
+    print(t,end=' ')
+    f=s
+    s=t
+    c=c+1
