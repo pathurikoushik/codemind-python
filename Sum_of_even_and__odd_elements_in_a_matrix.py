@@ -7,8 +7,9 @@ for i in range(0,a):
     c.append(d)
 for i in range(0,a):
     for j in range(0,b):
-        if c[i][j]%2==0:
+       if c[i][j]%2==0:
             s+=c[i][j]
-        else:
-            m+=c[i][j]
+       else:
+           m+=c[i][j]
 print(s,m)
+            
